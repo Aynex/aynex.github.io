@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Inicio | Aynex</title>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/simplex/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="media/overrides.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container-fluid main full-height">
+      <div class="row full-height">
+        <div class="col-md-3 left-menu hidden-xs hidden-sm full-height">
+          <a href="http://aynex.feriadesoftware.cl/">
+            <img src="imagoos/aynex.png" id="aynex-logo">
+          </a>
+          <ul class="nav nav-pills nav-stacked full-height text-center">
+            <li class="active"><a href="http://aynex.feriadesoftware.cl/">Inicio</a></li>
+            <li><a href="productos.html">Nuestro Producto</a></li>
+            <li><a href="quienes.html">¿Quiénes somos?</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-12 top-menu visible-xs visible-sm text-center">
+          <a href="http://aynex.feriadesoftware.cl/">
+            <img src="imagoos/aynex.png" id="aynex-logo">
+          </a>
+          <div class="visible-sm" id="collapsible-menu">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a href="http://aynex.feriadesoftware.cl/">Inicio</a></li>
+              <li><a href="producto.html">Nuestro Producto</a></li>
+              <li><a href="quienes.html">¿Quiénes somos?</a></li>
+              <li><a href="noticias.html">Noticias</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="visible-xs">
+            <ul class="nav nav-pills nav-stacked">
+              <li>
+                <a href="#" data-toggle="collapse" data-target="#collapsable-menu" id="collapse-button">
+                  <span class="glyphicon glyphicon-chevron-down">
+                  <strong id="collapse-text">Mostrar Menú</strong>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <div id="collapsable-menu" class="collapse">
+              <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="http://aynex.feriadesoftware.cl/">Inicio</a></li>
+                <li><a href="producto.html">Nuestro Producto</a></li>
+                <li><a href="quienes.html">¿Quiénes somos?</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-12 mah-body full-height">
+          <div class="page-header">
+            <h1>Sobre Aynex <small>Nuestra motivación y quienes somos.</small></h1>
+          </div>
+          <h2>Nuestra motivación</h2>
+          <h2>Quienes somos</h2>
+          <p class="lead">
+          El equipo que conforma Aynex está compuesto por:
+          </p>
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+              <div class="thumbnail">
+                <img src="imagoos/dsalazar.jpg" class="thumb">
+                <div class="caption">
+                  <h3>Diego Salazar</h3>
+                  <p>Jefe de Equipo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+              <div class="thumbnail">
+                <img src="imagoos/descobar.jpg" class="thumb">
+                <div class="caption">
+                  <h3>Diego Escobar</h3>
+                  <p>Diseñador de Interfaces</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">  
+              <div class="thumbnail">
+                <img src="imagoos/jolguin.jpg" class="thumb">
+                <div class="caption">
+                  <h3>Joaquín Olguín</h3>
+                  <p>Comunicaciones</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+              <div class="thumbnail">
+                <img src="imagoos/jmunoz.jpg" class="thumb">
+                <div class="caption">
+                  <h3>Joaquín Muñoz</h3>
+                  <p>Jefe de Desarrollo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+    $('#collapsable-menu').on('hidden.bs.collapse', function(){
+    $('#collapse-button span.glyphicon').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+    $('#collapse-text').text('Mostrar menú');
+    });
+    $('#collapsable-menu').on('shown.bs.collapse', function(){
+    $('#collapse-button span.glyphicon').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+    $('#collapse-text').text('Ocultar menú');
+    });
+    </script>
+  </body>
+</html>
