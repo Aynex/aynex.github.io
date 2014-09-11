@@ -1,86 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <title>Inicio | Aynex</title>
-  <meta charset="utf-8">
-  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/simplex/bootstrap.min.css" rel="stylesheet">
-  <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
-  <link rel="stylesheet" href="media/overrides.css">
-  <link rel="shortcut icon" href="favicon.ico">
-</head>
-<body>
+  <head>
+    <title>Inicio | Aynex</title>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/simplex/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="media/overrides.css">
+    <link rel="shortcut icon" href="favicon.ico">
 
-<div class="container-fluid main full-height">
-  <div class="row full-height">
-    <div class="col-md-3 left-menu hidden-xs hidden-sm full-height">
-      <a href="http://aynex.feriadesoftware.cl/">
-        <img src="imagoos/aynex.png" id="aynex-logo">
-      </a>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <ul class="nav nav-pills nav-stacked full-height text-center">
-        <li class="active"><a href="http://aynex.feriadesoftware.cl/">Inicio</a></li>
-        <li><a href="productos.html">Nuestro Producto</a></li>
-        <li><a href="quienes.html">¿Quiénes somos?</a></li>
-        <li><a href="noticias.html">Noticias</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </div>
+  </head>
+  <body>
+    <div class="container-fluid main full-height">
+      <div class="row full-height">
+        <div class="col-md-3 left-menu hidden-xs hidden-sm full-height">
+          <a href="http://aynex.feriadesoftware.cl/">
+            <img src="imagoos/aynex.png" id="aynex-logo">
+          </a>
+          <ul class="nav nav-pills nav-stacked full-height text-center">
+            <li class="active"><a href="http://aynex.feriadesoftware.cl/">Inicio</a></li>
+            <li><a href="productos.html">Nuestro Producto</a></li>
+            <li><a href="quienes.html">¿Quiénes somos?</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-12 top-menu visible-xs visible-sm text-center">
+          <a href="http://aynex.feriadesoftware.cl/">
+            <img src="imagoos/aynex.png" id="aynex-logo">
+          </a>
+          <div class="visible-sm" id="collapsible-menu">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a href="http://aynex.feriadesoftware.cl/">Inicio</a></li>
+              <li><a href="producto.html">Nuestro Producto</a></li>
+              <li><a href="quienes.html">¿Quiénes somos?</a></li>
+              <li><a href="noticias.html">Noticias</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
 
-    <div class="col-md-12 top-menu visible-xs visible-sm text-center">
-      <a href="http://aynex.feriadesoftware.cl/">
-        <img src="imagoos/aynex.png" id="aynex-logo">
-      </a>
-      <ul class="nav nav-tabs nav-justified">
-        <li class="active"><a href="http://aynex.feriadesoftware.cl/">Inicio</a></li>
-        <li><a href="producto.html">Nuestro Producto</a></li>
-        <li><a href="quienes.html">¿Quiénes somos?</a></li>
-        <li><a href="noticias.html">Noticias</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </div>
-    <div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-12 mah-body full-height">
-      <div class="page-header">
-        <h1>Hola, somos Aynex. <small>Soluciones Informáticas</small></h1>
+          <div class="visible-xs">
+            <ul class="nav nav-pills nav-stacked">
+              <li>
+                <a href="#" data-toggle="collapse" data-target="#collapsable-menu" id="collapse-button">
+                  <span class="glyphicon glyphicon-chevron-down"></span>
+                  Mostrar Menú
+                </a>
+              </li>
+            </ul>
+            <div id="collapsable-menu" class="collapse">
+              <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="http://aynex.feriadesoftware.cl/">Inicio</a></li>
+                <li><a href="producto.html">Nuestro Producto</a></li>
+                <li><a href="quienes.html">¿Quiénes somos?</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-12 mah-body full-height">
+          <div class="page-header">
+            <h1>Hola, somos Aynex. <small>Soluciones Informáticas</small></h1>
+          </div>
+          
+          <p class="lead">Somos los creadores de <a href="producto.html">Médicen</a>, un sistema para sugerencias de servicios médicos.</p>
+          <!-- start slipsum code -->
+          <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+          <p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+          <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
+          <p>The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die. </p>
+          <p>The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die. </p>
+          <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
+          <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
+          <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
+          <p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+          <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
+          <!-- please do not remove this line -->
+          <div style="display:none;">
+            <a href="http://slipsum.com">lorem ipsum</a>
+          </div>
+          <!-- end slipsum code -->
+        </div>
+        <div class="visible-sm visible-xs col-sm-12 col-xs-12">
+          <p>&copy; 2014: Aynex. Todos los derechos reservados.</p>
+        </div>
       </div>
-      
-      <p class="lead">Somos los creadores de <a href="producto.html">Médicen</a>, un sistema para sugerencias de servicios médicos.</p>
-
-      <!-- start slipsum code -->
-
-<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
-
-<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
-
-<p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
-
-<p>The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die. </p>
-
-<p>The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme in protein metabolism. The animals can't manufacture the amino acid lysine. Unless they're continually supplied with lysine by us, they'll slip into a coma and die. </p>
-
-<p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
-
-<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
-
-<p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
-
-<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
-
-<p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
-
-<!-- please do not remove this line -->
-
-<div style="display:none;">
-<a href="http://slipsum.com">lorem ipsum</a></div>
-
-<!-- end slipsum code -->
-
     </div>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+      $('#collapsable-menu').on('hidden.bs.collapse', function(){
+        $('#collapse-button span.glyphicon').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+      });
 
-    <div class="visible-sm visible-xs col-sm-12 col-xs-12">
-      <p>&copy; 2014: Aynex. Todos los derechos reservados.</p>
-    </div>
-  </div>
-</div>
-</body>
+      $('#collapsable-menu').on('shown.bs.collapse', function(){
+        $('#collapse-button span.glyphicon').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+      });
 
+      </script>
+  </body>
 </html>
