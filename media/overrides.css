@@ -6,13 +6,13 @@ html, body{
 }
 
 body{
-  font-family: "Droid Sans", sans;
+  font-family: "Droid Sans", sans-serif;
   /*background: rgb(244, 244, 244);*/
   height: 100%;
 }
 
 body *, .btn {
-   font-family: "Droid Sans", sans;
+   font-family: "Droid Sans", sans-serif;
 }
 
 .left-menu{
@@ -70,5 +70,6 @@ body *, .btn {
 /* Thumbnails */
 
 .thumb{
-  height: 200px !important;
+  height: 150px !important;
+  width: auto;
 }
