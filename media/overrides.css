@@ -9,8 +9,8 @@ body{
   height: 100%;
 }
 
-body * {
-  font-family: "Droid Sans", sans;
+body *, .btn {
+   font-family: "Droid Sans", sans;
 }
 
 .left-menu{
@@ -49,6 +49,20 @@ body * {
 
 .full-height{
   height: 100%;
+}
+
+
+.mah-body h2, .mah-body h3, .mah-body h4{
+  padding-bottom: 10px;
+}
+
+.mah-body h2{
+  padding-top: 5px;
+}
+
+.mah-body a{
+  color: #00f;
+  text-decoration: underline;
 }
 
 /* Thumbnails */
