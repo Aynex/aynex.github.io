@@ -7,12 +7,18 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="media/overrides.css">
     <link rel="shortcut icon" href="favicon.ico">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=359487027537835&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="container-fluid main full-height">
       <div class="row full-height">
         <div class="col-md-3 left-menu hidden-xs hidden-sm full-height">
@@ -38,13 +44,12 @@
               <li><a href="contacto.html">Contacto</a></li>
             </ul>
           </div>
-
           <div class="visible-xs">
             <ul class="nav nav-pills nav-stacked">
               <li>
                 <a href="#" data-toggle="collapse" data-target="#collapsable-menu" id="collapse-button">
                   <span class="glyphicon glyphicon-chevron-down">
-                    <strong id="collapse-text">Mostrar Menú</strong>
+                  <strong id="collapse-text">Mostrar Menú</strong>
                   </span>
                 </a>
               </li>
@@ -61,49 +66,52 @@
         </div>
         <div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-12 mah-body full-height">
           <div class="page-header">
-            <h1>Hola, somos Aynex. <small>Bienvenido a nuestro sitio.</small></h1>
+            <div class="pull-right">
+              <br><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://aynex.feriadesoftware.cl" data-text="Aynex - Soluciones Informáticas" data-lang="es" data-dnt="true">Twittear</a>
+              <script>
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+              </script>
+              <br>
+              <div class="fb-like" data-href="http://aynex.feriadesoftware.cl/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+            </div>
+            <h1>Hola, somos Aynex. <br class="visible-sm visible-xs"><small>Bienvenido a nuestro sitio.</small></h1>
           </div>
-          
           <h2>Presentamos Médicen</h2>
           <p class="lead">
           Un portal web donde se ofrecen sugerencias de exámenes médicos según lo que el usuario desee privilegiar. Ya sea ahorrar dinero, esperar menos, un lugar cerca de su trabajo u hogar y/o recibir una mejor atención.
           </p>
           <ul class="lead">
-          <li>Conozca más sobre <a href="producto.html">Médicen</a> y en que lo podría ayudar.</li>
-          <li>También puede conocer más sobre el <a href="quienes.html">equipo</a> detrás de Médicen.</li>
-          <li>En caso de cualquier duda, contáctenos a través de nuestro <a href="contacto.html">formulario de contacto</a> o en nuestra página en <a href="https://www.facebook.com/Medicen2014"><span class="fa fa-facebook-square">&nbsp</span>Facebook</a></li>
+            <li>Conozca más sobre <a href="producto.html">Médicen</a> y en que lo podría ayudar.</li>
+            <li>También puede conocer más sobre el <a href="quienes.html">equipo</a> detrás de Médicen.</li>
+            <li>En caso de cualquier duda, contáctenos a través de nuestro <a href="contacto.html">formulario de contacto</a> o en nuestra página en <a href="https://www.facebook.com/Medicen2014"><span class="fa fa-facebook-square">&nbsp;</span>Facebook</a></li>
           </ul>
-
           <h2>Nuestros Patrocinadores</h2>
           <div class="text-center">
             <ul class="list-inline">
               <li class="thumbnail">
-              <a href="http://www.usm.cl"><img src="imagoos/utfsm.jpg" alt="Universidad Técnica Federico Santa María"></a></li>
-              <li class="thumbnail">
-              <a href="http://exalumnos.usm.cl/"><img src="imagoos/aexa.png" alt="Asociación de Ex-Alumnos UTFSM"></a></li>
-            </ul>
-            <ul class="list-inline">
-              <li class="thumbnail"><a href="http://www.inf.utfsm.cl/"><img src="imagoos/di.jpeg" alt="Departamento de Informática UTFSM"></a></li>
-              <li class="thumbnail"><a href="http://exalumnos.usm.cl/"><img src="imagoos/cdp.png" alt="Centro de Desarrollo Profesional, AEXA USM"></a></li>
-              <li class="thumbnail"><a href="http://feriadesoftware.cl/"><img src="imagoos/fesw.png" alt="Feria de Software, DI UTFSM"></a></li>
-            </ul>
+                <a href="http://www.usm.cl"><img src="imagoos/utfsm.jpg" alt="Universidad Técnica Federico Santa María"></a></li>
+                <li class="thumbnail">
+                  <a href="http://exalumnos.usm.cl/"><img src="imagoos/aexa.png" alt="Asociación de Ex-Alumnos UTFSM"></a></li>
+                </ul>
+                <ul class="list-inline">
+                  <li class="thumbnail"><a href="http://www.inf.utfsm.cl/"><img src="imagoos/di.jpeg" alt="Departamento de Informática UTFSM"></a></li>
+                  <li class="thumbnail"><a href="http://exalumnos.usm.cl/"><img src="imagoos/cdp.png" alt="Centro de Desarrollo Profesional, AEXA USM"></a></li>
+                  <li class="thumbnail"><a href="http://feriadesoftware.cl/"><img src="imagoos/fesw.png" alt="Feria de Software, DI UTFSM"></a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-
-      </div>
-    </div>
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script>
-      $('#collapsable-menu').on('hidden.bs.collapse', function(){
-        $('#collapse-button span.glyphicon').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
-        $('#collapse-text').text('Mostrar menú');
-      });
-
-      $('#collapsable-menu').on('shown.bs.collapse', function(){
-        $('#collapse-button span.glyphicon').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
-        $('#collapse-text').text('Ocultar menú');
-      });
-
-      </script>
-  </body>
-</html>
+          <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+          <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+          <script>
+          $('#collapsable-menu').on('hidden.bs.collapse', function(){
+          $('#collapse-button span.glyphicon').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+          $('#collapse-text').text('Mostrar menú');
+          });
+          $('#collapsable-menu').on('shown.bs.collapse', function(){
+          $('#collapse-button span.glyphicon').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+          $('#collapse-text').text('Ocultar menú');
+          });
+          </script>
+        </body>
+      </html>
